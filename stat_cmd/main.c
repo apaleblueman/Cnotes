@@ -50,5 +50,10 @@ int  main( int argc, char *argv[]){
         return -1;
     }
     printf("Size reported by fstat :%ld\n", dbStat.st_size);
+    if(dbStat.st_size != db_header.filesize){
+        printf("this file might have been tampered with!\n");
+        close(fd);
+        return -2; //defcon 2 ! (hacker might have been here)
+    }
     return 0;
 }
