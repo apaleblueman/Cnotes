@@ -6,35 +6,18 @@
 ```
 int some_var = 4;
 
-int *pointer_to_some_var = &some_var 
+int *pointer_to_some_var = &some_var;
 
 
 ```
+
 > here **&some_var** is address of x;
-<table>
-<tr>
-    <th>Symbol</th>
-    <th>Funtion</th>
-    <th>Example</th>
-</tr>
-<tr>
-<td>some_variable</td>
-<td>Holds the value in certain memory location</td>
-<td>int x = 3;</td>
-</tr>
 
-<tr>
-<td>*</td>
-<td>points to memory address of a ceratin variable </td>
-<td>int *pX;</td>
-</tr>
-
-<tr>
-<td>&</td>
-<td>Holds the value of address of following variable</td>
-<td> &x;</td>
-</tr>
-</table>
+| Symbol        | Funtion                                          | Example    |
+| ------------- | ------------------------------------------------ | ---------- |
+| some_variable | Holds the value in certain memory location       | int x = 3; |
+| *             | Points to memory address of a certain variable   | int *pX;   |
+| &             | Holds the value of address of following variable |  &X;       |
 
 !["pointer image"](pointer.png)
 

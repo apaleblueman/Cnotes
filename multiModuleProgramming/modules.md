@@ -29,3 +29,13 @@ stdin                         stdout
 > In such code every module may depend on their sibling modules that makes it hard to follow the code logically as it is unorganized.Instead if two modules have dependencies on each other , pack them into a single module. 
 !["blob"](./module.png)
 
+
+# Compilation and linking
+
+* when GCC (or some other compiler) is invoked.
+* Two things happen at this point:
+  * Compile phase - all code is compiled into object file.
+  * Link Phase(linker pass)- all object files are converted to executables or  
+  sometimes even library.
+
+ 
