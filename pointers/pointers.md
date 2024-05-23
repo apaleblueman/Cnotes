@@ -35,7 +35,8 @@ int *pointer_to_some_var = &some_var
 <td> &x;</td>
 </tr>
 </table>
-![[pointer.png]]
+
+!["pointer image"](pointer.png)
 
 
 # references and De-referencing
