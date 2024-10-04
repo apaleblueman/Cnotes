@@ -51,7 +51,7 @@ int *pointer_to_some_var = &some_var;
 <tr>
     <td>Pointers name itself with a preceding &(pointer variable)</td>
     <td>Memory address of pointer (eg:0x7ffe2f14f97c)</td>
-<td>printf("Address of pointer p is %p",(void*)&p);</td>
+<td>printf("Address of pointer p is %p",(void*)p);</td>
 </tr>
 <tr>
 <td>pointer preceded by * (not to be confused with initialization of a pointer type)</td>
